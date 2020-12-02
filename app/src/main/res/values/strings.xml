@@ -5,4 +5,5 @@
     <string name="grid_view">grid view</string>
     <string name="error_fragment">error in fragment</string>
     <string name="personal_settings">personal settings</string>
+    <string name="browse_title">browse title</string>
 </resources>

@@ -2,14 +2,16 @@ package com.next.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Activity;
 import android.os.Bundle;
 
-public class MainActivity extends Activity {
+public class DetailsActivity extends AppCompatActivity {
+    public static final String MOVIE = "Movie";
+    public static final String SHARED_ELEMENT_NAME = "hero";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_details);
     }
 }
